@@ -1,0 +1,54 @@
+h1{
+    color: blue;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}   
+.header{
+    border: solid;
+    background-color:#D2D2D2;
+    display:flex;
+    justify-content:space-between ;
+    
+}
+.grid{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+body{
+   background-color:#808080; 
+}
+.header *{
+    border: solid;
+}
+a:link{
+    color:blue;
+    
+}
+a:visited{
+    color:blue ;
+}
+.menu{
+    margin: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+
+}
+.item h2{
+    position: absolute;
+    top:20%;
+    left:20%;
+    opacity: 0;
+}
+.item:hover h2{
+    opacity: 1;
+}
